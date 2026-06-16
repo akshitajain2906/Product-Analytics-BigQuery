@@ -18,7 +18,7 @@ The analysis covers:
 
 ## BigQuery
 
-![BigQuery](Capture.PNG)
+![BigQuery](Image.PNG)
 
 All 13 queries were executed as a single script in BigQuery, processing 4.66 MB across five tables in 5 seconds.
 
@@ -92,4 +92,4 @@ BigQuery syntax differs from MySQL throughout: `FORMAT_DATE` instead of `DATE_FO
 
 ## Business Implications
 
-The data points to three clear priorities. First, support related churn is the hardest to win back — a 5.8% reactivation rate against 11 to 13% for every other reason means support experience deserves disproportionate retention investment. Second, the downgrade-before-churn assumption does not hold here; 72% of churned accounts gave no warning through a plan change, so churn prediction needs signals beyond billing behaviour. Third, the gap between 2023 and 2024 cohort retention at M1 and M3 is large enough to warrant investigating what changed in onboarding or product around early 2024, since replicating it at M12 would have a material impact on retained revenue.
+The data points to three clear priorities. First, support related churn is the hardest to win back — a 5.8% reactivation rate against 11 to 13% for every other reason means support experience deserves disproportionate retention investment. Second, the downgrade-before-churn assumption does not hold here; 72% of churned accounts gave no warning through a plan change, so churn prediction needs signals beyond billing behaviour. Third, the gap between 2023 and 2024 cohort retention at M1 and M3 is large enough to warrant investigating what changed in onboarding or product around early 2024, since replicating it at M12 would have a material impact on retained revenue.
